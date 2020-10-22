@@ -29,7 +29,6 @@
 
 
         </activity>
-        <activity android:name=".FotoRestaurant" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -64,9 +63,7 @@
 
         </activity>
         <activity android:name=".Cliente" />
-        <activity android:name=".Admi" />
         <activity android:name=".EliminarMenu" />
-        <activity android:name=".EditarCliente" />
         <activity android:name=".EditarAdmi" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
