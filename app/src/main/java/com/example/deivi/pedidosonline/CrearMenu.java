@@ -1,5 +1,6 @@
 package com.example.deivi.pedidosonline;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -46,6 +47,7 @@ public class CrearMenu extends AppCompatActivity {
     ListView listcrear;
     ArrayList<Menus> list_data = new ArrayList<Menus> ();
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
