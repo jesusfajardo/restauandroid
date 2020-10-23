@@ -99,7 +99,11 @@ public class ResAdapter extends BaseAdapter {
 
                 AsyncHttpClient client = new AsyncHttpClient();
 
+<<<<<<< HEAD
                 client.delete("http://172.25.0.2:8000/api/v1.0/restaurant" + "/" + id, new JsonHttpResponseHandler() {
+=======
+                client.delete("http://172.25.0.1:8000/api/v1.0/restaurant" + "/" + id, new JsonHttpResponseHandler() {
+>>>>>>> 368439891c86c9da45797b8cca0398fb1bc1c46c
                     @Override
                     public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                         try {
