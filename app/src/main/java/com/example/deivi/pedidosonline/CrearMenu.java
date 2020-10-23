@@ -1,5 +1,6 @@
 package com.example.deivi.pedidosonline;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -37,6 +38,8 @@ import collections.BorrarMenuAdapter;
 import collections.Menus;
 import cz.msebera.android.httpclient.Header;
 
+import static com.example.deivi.pedidosonline.R.id.precioproducto;
+
 public class CrearMenu extends AppCompatActivity {
     Button aceptar,foto;
 
@@ -46,6 +49,7 @@ public class CrearMenu extends AppCompatActivity {
     ListView listcrear;
     ArrayList<Menus> list_data = new ArrayList<Menus> ();
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
@@ -53,7 +57,7 @@ public class CrearMenu extends AppCompatActivity {
         //istcrear=findViewById(R.id.);
         foto = findViewById (R.id.tomarfoto);
         producto = findViewById(R.id.producto);
-        precio = findViewById(R.id.precioproducto);
+        precio = findViewById(precioproducto);
         descripcion = findViewById(R.id.descripcion);
         aceptar = findViewById (R.id.aceptar);
         imagen = findViewById (R.id.fotomenu);
@@ -141,7 +145,7 @@ public class CrearMenu extends AppCompatActivity {
 
     public void sedData(){
        final EditText nombre  = findViewById(R.id.producto);
-       final EditText precio  = findViewById(R.id.precioproducto);
+       final EditText precio  = findViewById(precioproducto);
        final EditText descripcion = findViewById(R.id.descripcion);
        final ImageView image = findViewById (R.id.fotomenu);
         if (nombre.getText().toString().equals("") || precio.getText().toString().equals("") || descripcion.getText().toString().equals("")){
@@ -196,7 +200,7 @@ public class CrearMenu extends AppCompatActivity {
     }
     private void loadComponents() {
         AsyncHttpClient client = new AsyncHttpClient ();
-        client.get ("http://192.168.1.102:7777/api/v1.0/menus",  new JsonHttpResponseHandler(){
+        client.get ("http://172.25.0.2:8000/api/v1.0/menus",  new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 
