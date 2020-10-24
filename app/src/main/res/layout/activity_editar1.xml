@@ -8,7 +8,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:background="#4fc3f7"
+=======
+>>>>>>> d6d77596d4c6637dad1044d5df21eddffc0100de
         android:scaleType="centerCrop"
         />
     <EditText

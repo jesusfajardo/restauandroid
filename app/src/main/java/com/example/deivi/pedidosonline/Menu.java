@@ -86,7 +86,11 @@ public class Menu extends AppCompatActivity {
     }
     private void loadComponents() {
         AsyncHttpClient client = new AsyncHttpClient ();
+<<<<<<< HEAD
         client.get ("http://192.168.1.102:8000/api/v1.0/menus",  new JsonHttpResponseHandler(){
+=======
+        client.get ("http://172.25.0.1:8000/api/v1.0/menus",  new JsonHttpResponseHandler(){
+>>>>>>> d6d77596d4c6637dad1044d5df21eddffc0100de
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 

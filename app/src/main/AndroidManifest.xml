@@ -26,6 +26,11 @@
             android:name=".Login"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FotoRestaurant" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -66,11 +70,19 @@
         <activity android:name=".CrearMenu">
 
         </activity>
-        <activity android:name=".Cliente" />
+<<<<<<< HEAD
+        <activity android:name=".Cliente">
+        </activity>
         <activity android:name=".Admi" />
         <activity android:name=".EliminarMenu" />
         <activity android:name=".EditarCliente" />
+
+=======
+        <activity android:name=".Cliente" />
+        <activity android:name=".EliminarMenu" />
+>>>>>>> 368439891c86c9da45797b8cca0398fb1bc1c46c
         <activity android:name=".EditarAdmi" />
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
