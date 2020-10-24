@@ -44,7 +44,7 @@ public class VerMenu extends AppCompatActivity {
     }
     private void loadComponents() {
         AsyncHttpClient client = new AsyncHttpClient ();
-        client.get ("http://192.168.1.108:7777/api/v1.0/menus",  new JsonHttpResponseHandler(){
+        client.get ("http://192.168.1.108:8000/api/v1.0/menus",  new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B3e5fc"
     tools:context=".Cliente">
 
     <ImageView
@@ -74,6 +75,7 @@
         android:id="@+id/vercarrito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
         android:text="Ver carrito"
@@ -84,6 +86,7 @@
         android:id="@+id/reapedido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginTop="64dp"
         android:text="Realizar pedido"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,6 +96,7 @@
         android:id="@+id/edicuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
@@ -106,6 +110,7 @@
         android:id="@+id/elicuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"

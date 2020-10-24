@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/chata"
+        android:background="#4fc3f7"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#d8000000"
+        android:background="#00BCD4"
         android:gravity="center"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"

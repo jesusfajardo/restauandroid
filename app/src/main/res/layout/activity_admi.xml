@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B3e5fc"
     tools:context=".Admi">
 
     <ImageView
@@ -35,7 +36,8 @@
         android:text="CI"
         android:textSize="20dp"
         app:layout_constraintTop_toBottomOf="@+id/nombre2"
-        tools:layout_editor_absoluteX="8dp" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/telefono2"
@@ -74,6 +76,7 @@
         android:id="@+id/verestaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:text="Ver restaurant"
@@ -84,6 +87,7 @@
         android:id="@+id/crestaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
         android:text="Crear restaurant"
@@ -94,6 +98,7 @@
         android:id="@+id/edicuenta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
@@ -107,6 +112,7 @@
         android:id="@+id/elicuenta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
@@ -120,6 +126,7 @@
         android:id="@+id/irpedidos"
         android:layout_width="149dp"
         android:layout_height="wrap_content"
+        android:background="#4fc3f7"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"

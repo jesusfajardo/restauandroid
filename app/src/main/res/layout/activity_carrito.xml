@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/descarga"
+        android:background="#B3e5fc"
         android:scaleType="centerCrop"
         />
 
@@ -26,7 +26,7 @@
         android:layout_marginBottom="30dp"
         android:elevation="50dp"
         android:text="Carrito de Pedidos"
-        android:background="@drawable/fondocolor"
+        android:background="#4fc3f7"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#fff"
         android:paddingLeft="10dp"
@@ -62,7 +62,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="pedir"
-        android:background="@drawable/fondocolor"
+        android:background="#4fc3f7"
         android:layout_marginBottom="16dp"
         android:textColor="#fff"
         android:paddingLeft="5dp"
